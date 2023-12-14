@@ -16,7 +16,7 @@ const rwClient = client.readWrite;
 const postTweet = async () => {    
     try {
         await rwClient.v2.tweet({
-            text: "C'est l'heure de la raclette !",
+            text: "Grosse raclette ?",
         });
     } catch (err) {
         console.log(err);    
